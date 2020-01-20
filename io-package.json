@@ -1,0 +1,74 @@
+{
+	"common": {
+		"name": "rolloshift",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Rolloshift",
+		"titleLang": {
+			"en": "Rolloshift",
+			"de": "Rolloshift",
+			"ru": "Rolloshift",
+			"pt": "Rolloshift",
+			"nl": "Rolloshift",
+			"fr": "Rolloshift",
+			"it": "Rolloshift",
+			"es": "Rolloshift",
+			"pl": "Rolloshift",
+			"zh-cn": "滚转"
+		},
+		"desc": {
+			"en": "adapter for using the rolloshift shutter control",
+			"de": "Adapter zur Verwendung der Rollladensteuerung",
+			"ru": "адаптер для использования управления рольставнями",
+			"pt": "adaptador para usar o controle do obturador rolloshift",
+			"nl": "adapter voor het gebruik van de rolloshift-sluiterregeling",
+			"fr": "adaptateur pour utiliser la commande d'obturateur rolloshift",
+			"it": "adattatore per l'utilizzo del controllo dell'otturatore rolloshift",
+			"es": "Adaptador para usar el control de obturador Rolloshift",
+			"pl": "adapter do korzystania ze sterowania roletami",
+			"zh-cn": "用于使用Rolloshift快门控件的适配器"
+		},
+		"authors": [
+			"Eike Baran <eike@eebrn.de>"
+		],
+		"keywords": [
+			"shutter rolloshift"
+		],
+		"license": "GPL-3.0",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "rolloshift.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/baranator/ioBroker.rolloshift/master/admin/rolloshift.png",
+		"readme": "https://github.com/baranator/ioBroker.rolloshift/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "lighting",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
